@@ -9,4 +9,4 @@ print(requests.__version__)
 
 print(requests.get("http://google.com/"))
 
-print(requests.get())
+print("\n" + requests.get("https://raw.githubusercontent.com/sonikrutik/cmput404/master/Lab1/main.py?token=GHSAT0AAAAAABYWEIERDIJDHEP6GLJAFUAEYY73J7Q").text)
